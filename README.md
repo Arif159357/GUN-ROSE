@@ -78,7 +78,7 @@
 
 **What I Did is:**
 <br/><br/>
-![addqun](https://user-images.githubusercontent.com/55071900/68081282-bf6fae80-fe35-11e9-9e30-f27c3d9ce52c.png)
+![sameitem](https://user-images.githubusercontent.com/55071900/68089139-12764f80-fe90-11e9-802c-0ed4163ad3fa.PNG)
 <br/><br/>
 1. The same item is added twice to have count of the quantity.
 
