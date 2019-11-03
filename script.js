@@ -125,9 +125,12 @@ $("#add").click(function(e) {
 $("#back").click(function(e) {
   window.location.href = "buyItem.html";
 });
-var cart = [];
+var cart = [
+
+];
 
 var cart_count = 0;
+var count =0;
 var qunt = 0
 $(".add_items").click(function(e) {
   cart_count++;
@@ -148,38 +151,38 @@ $(".add_items").click(function(e) {
     .children()
     .eq(0)
     .text();
-  //quantity = parent
-    //.children()
-    //.eq(3)
-    //.text();
-  cart.push({ name: name, url: img1, /*qun: qunt*/ price: price });
-  window.localStorage.setItem("cart", JSON.stringify(cart));
+    
+    cart.push({ name: name, url: img1, count:count++, price: price });
+    window.localStorage.setItem("cart", JSON.stringify(cart));
+  
   var sum = 0;
 
   for (var i = 0; i < cart.length; i++) {
-    sum = sum + parseInt(cart[i].price);
+    sum = sum + parseFloat(cart[i].price);
   }
   console.log(sum);
-  let temp = $(
-    '\
-          <tr id="delrow">\
-            <td class="center-it text-gold" scope="row">' +
-      cart_count +
-      '</td>\
-            <td class="center-it"><img class="cart-img" src="' +
-      img1 +
-      '" /></td>\
-            <td class="center-it text-gold">' +
-      name +
-      '</td>\
-            <td class="center-it text-gold">' +
-      price +
-      '</td >\
-            <td class="center-it" text-gold ><button class="btn btn-light delete" title="Delete" data-toggle="tooltip"><i class="material-icons text-danger">&#xE872;</i></button></td>\
+  
+    let temp = $(
+      '\
+            <tr class="delrow">\
+              <td class="center-it text-gold" scope="row">' +
+        cart_count +
+        '</td>\
+              <td class="center-it"><img class="cart-img" src="' +
+        img1 +
+        '" /></td>\
+              <td class="center-it text-gold">' +
+        name +
+        '</td>\
+              <td class="center-it text-gold">' +
+        price +
+        '</td>\
+              <td class="center-it" text-gold ><button class="btn btn-light delete" title="Delete" data-toggle="tooltip"><i class="material-icons text-danger">&#xE872;</i></button></td>\
         </tr>'
-  );
+    );
+    $("#cart-list").append(temp);
   var total = $("#total").text("Total: " + sum);
-  $("#cart-list").append(temp);
+  
   $("#cart-list").append(total);
 
 });
@@ -224,7 +227,7 @@ $(".get_des").click(function(e) {
     .eq(2)
     .text();
   var div = $("#DE");
-  let img2 = $("<img src=" + img3 + 'class="sty">');
+  let img2 = $("<img src=" + img3 + ' class="sty">');
   var div1 = $("<div>");
   div1.append($("<h5>").text(name));
   div1.append(img2);
@@ -234,19 +237,48 @@ $(".get_des").click(function(e) {
   div.append(div1);
   div.append(btn);
 });
-
-$("#goback").click(function(e) {
+$(document).on('click', '#goback', function() {
   $("#DE").hide();
   $("#SP").show();
   $("#DE").empty();
 });
+
 console.log(cart);
 
-$(".delete").click(function(e) {
-  
+function updateTotalBill(value){
+   var total = $('#total').text()
+   //total = parseInt(total)
+   console.log("1st",total)
+    for(var i=0; i<cart.length;i++){
+      if (i==value){
+        console.log("cp-",cart[i].price)
+        total = total - cart[i].price
+        console.log("Total-",total)
+        $("#total").text("Total: " + total)
+        //cart.splice(i, 1)
+
+      }
+    }
+
+  // cart.forEach(function(e) {
+    // console.log("cp-",cart[value].price)
+    // total = total - parseFloat(cart[value].price)
+    // console.log("Total-",total)
+   //  $("#cart-list").append($("#total").text("Total: " + total));
+   //  cart.splice(value, 1);
+//  });
+     //console.log("cp-",cart[value].price)
+     //total = total - parseFloat(cart[value].price)
+     //console.log("Total-",total)
+     //$("#cart-list").append($("#total").text("Total: " + total));
+     //cart.splice(value, 1);
+}
+var gotIn = 0
+$(document).on('click', '.delete', function() {
+  var value = $(this).parent().parent().children().eq(0).text()
   $(this).parent().parent().remove();
-  //$(this).closest("tr").remove();
-    
+  //gotIn = gotIn + 1
+  updateTotalBill(value);
 });
 
 /*if (localStorage.length > 0 ) {
