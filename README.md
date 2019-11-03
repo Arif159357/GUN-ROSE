@@ -65,11 +65,13 @@
 ![goback](https://user-images.githubusercontent.com/55071900/68081133-2d66a680-fe33-11e9-97d3-0d584ee1ee13.png)
 
 ----------------------------------------
-
+**Things that doesn't work**
+My total update bill function is not working
+<br/><br/>
 **Thing that couldn't solve**
 1. Couldn't show the number increasing in the cart icon whenever an item is added
 2. Couldn't add +/- quantity button
-3. Couldn't updated the total price
+
 
 **What I Did is:**
 <br/><br/>
