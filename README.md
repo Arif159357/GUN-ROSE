@@ -39,7 +39,7 @@
 <br/><br/>
 ![addbtn](https://user-images.githubusercontent.com/55071900/68081059-df04d800-fe31-11e9-8075-2311441247a0.png)
 <br/><br/>
-# Add the item that you want and click submit. After You are don click back button to go to the home page
+# Add the item that you want and click submit. After You are done click back button to go to the home page
 <br/><br/>
 ![addpage](https://user-images.githubusercontent.com/55071900/68081062-f17f1180-fe31-11e9-9845-221e2a25d5c1.PNG)
 ![subitem](https://user-images.githubusercontent.com/55071900/68081065-ffcd2d80-fe31-11e9-80b0-ce44d02ff58d.png)
