@@ -1,4 +1,4 @@
-# GUN&-ROSE
+# GUN&ROSE
 # CSE 309 Assignment 1
 # Project Description: Buy Your Favorite Gun
 
