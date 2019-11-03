@@ -66,18 +66,16 @@
 
 ----------------------------------------
 **Things that doesn't work**
- *My total update bill function is not working
+ 1.My total update bill function is not working
 
 **Thing that couldn't solve**
-1. Couldn't show the number increasing in the cart icon whenever an item is added
-2. Couldn't add +/- quantity button
+1. Couldn't add +/- quantity button
 
 
 **What I Did is:**
 <br/><br/>
 ![addqun](https://user-images.githubusercontent.com/55071900/68081282-bf6fae80-fe35-11e9-9e30-f27c3d9ce52c.png)
 <br/><br/>
-1. I added a column in my table, that counts the number of items added 
-2. The same item is added twice to have count of the quantity.
+1. The same item is added twice to have count of the quantity.
 
 
