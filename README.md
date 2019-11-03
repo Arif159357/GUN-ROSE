@@ -19,7 +19,7 @@
 <br/><br/>
 # It will take You to the Item page
 <br/><br/>
-![item](https://user-images.githubusercontent.com/55071900/68081167-b54cb080-fe33-11e9-834a-6546930454de.PNG)
+![carticon](https://user-images.githubusercontent.com/55071900/68089021-19509280-fe8f-11e9-9959-716064607c36.PNG)
 
 <br/><br/>
 -----
@@ -55,6 +55,9 @@
 # click on the ADD to Cart button
 <br/><br/>
 ![addcart](https://user-images.githubusercontent.com/55071900/68081116-dbbe1c00-fe32-11e9-88e0-6bafe0544bbc.png)
+<br/><br/>
+# You can see how many item is added to the cart 
+![icon2](https://user-images.githubusercontent.com/55071900/68089060-5fa5f180-fe8f-11e9-83cf-aca1b648d718.png)
 <br/><br/>
 # check your cart after done adding by clicking go to cart button and want remove? click on the remove button
 ![cartpag](https://user-images.githubusercontent.com/55071900/68081131-2049b780-fe33-11e9-8a23-1ac8a95fedb4.PNG)
