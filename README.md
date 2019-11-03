@@ -32,6 +32,7 @@
 ![despag1](https://user-images.githubusercontent.com/55071900/68081043-93522e80-fe31-11e9-898a-0a51a3a992ea.PNG)
 ![despag2](https://user-images.githubusercontent.com/55071900/68081044-95b48880-fe31-11e9-8430-91ac6945b423.PNG)
 <br/><br/>
+# click on the go back button to go back to item page
 
 -----
 **ADD Items To The Item Page**
@@ -55,26 +56,26 @@
 <br/><br/>
 ![addcart](https://user-images.githubusercontent.com/55071900/68081116-dbbe1c00-fe32-11e9-88e0-6bafe0544bbc.png)
 <br/><br/>
-# check your cart after done adding
+# check your cart after done adding by clicking go to cart button and want remove? click on the remove button
 ![cartpag](https://user-images.githubusercontent.com/55071900/68081131-2049b780-fe33-11e9-8a23-1ac8a95fedb4.PNG)
+![remove](https://user-images.githubusercontent.com/55071900/68083678-b2fb4e00-fe55-11e9-8957-e4ce79fb97f5.png)
 <br/><br/>
 # Want to add more? just click on the go back to shopping button
 <br/><br/>
 ![goback](https://user-images.githubusercontent.com/55071900/68081133-2d66a680-fe33-11e9-97d3-0d584ee1ee13.png)
 
 ----------------------------------------
-**Things that doesn't work**
-1. In the description page go back button doesn't work. So you have to refresh the page to go back to the item page
-2. Remove item button doesn't work 
 
 **Thing that couldn't solve**
 1. Couldn't show the number increasing in the cart icon whenever an item is added
-2. Couldn't add +/- quantity button  
+2. Couldn't add +/- quantity button
+3. Couldn't updated the total price
 
 **What I Did is:**
 <br/><br/>
 ![addqun](https://user-images.githubusercontent.com/55071900/68081282-bf6fae80-fe35-11e9-9e30-f27c3d9ce52c.png)
 <br/><br/>
-I added a column in my table, that counts the number of items added and the same item is added twice to have count of the quantity.
+1. I added a column in my table, that counts the number of items added 
+2. The same item is added twice to have count of the quantity.
 
 
