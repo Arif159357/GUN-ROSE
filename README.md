@@ -69,12 +69,12 @@
 
 **Thing that couldn't solve**
 1. Couldn't show the number increasing in the cart icon whenever an item is added
-2. When ever an item is added to the cart, that item quantity should increase 
+2. Couldn't add +/- quantity button  
 
-**What I Did was:**
+**What I Did is:**
 <br/><br/>
 ![addqun](https://user-images.githubusercontent.com/55071900/68081282-bf6fae80-fe35-11e9-9e30-f27c3d9ce52c.png)
 <br/><br/>
-I added a column in my table, that counts the number of items and the same item is added twice to have count of the quantity.
+I added a column in my table, that counts the number of items added and the same item is added twice to have count of the quantity.
 
 
