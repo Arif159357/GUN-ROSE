@@ -162,7 +162,7 @@ $(".add_items").click(function(e) {
   console.log(sum);
   let temp = $(
     '\
-          <tr>\
+          <tr id="delrow">\
             <td class="center-it text-gold" scope="row">' +
       cart_count +
       '</td>\
@@ -175,7 +175,7 @@ $(".add_items").click(function(e) {
             <td class="center-it text-gold">' +
       price +
       '</td >\
-            <td class="center-it" text-gold id="delrow"><button class="btn btn-light delete" title="Delete" data-toggle="tooltip"><i class="material-icons text-danger">&#xE872;</i></button></td>\
+            <td class="center-it" text-gold ><button class="btn btn-light delete" title="Delete" data-toggle="tooltip"><i class="material-icons text-danger">&#xE872;</i></button></td>\
         </tr>'
   );
   var total = $("#total").text("Total: " + sum);
@@ -224,13 +224,13 @@ $(".get_des").click(function(e) {
     .eq(2)
     .text();
   var div = $("#DE");
-  let img2 = $("<img src=" + img3 + ' class="sty">');
+  let img2 = $("<img src=" + img3 + 'class="sty">');
   var div1 = $("<div>");
   div1.append($("<h5>").text(name));
   div1.append(img2);
   div1.append($("<p>").text(mesg));
   div1.append($("<p>").text(price));
-  let btn = $('<button id="goback" class="btn btn-primary ">Go Back</button>');
+  let btn = $('<button id="goback" class="btn btn-primary">Go Back</button>');
   div.append(div1);
   div.append(btn);
 });
@@ -244,7 +244,8 @@ console.log(cart);
 
 $(".delete").click(function(e) {
   
-  $('#delrow').remove();
+  $(this).parent().parent().remove();
+  //$(this).closest("tr").remove();
     
 });
 
