@@ -66,8 +66,8 @@
 
 ----------------------------------------
 **Things that doesn't work**
-My total update bill function is not working
-<br/><br/>
+ *My total update bill function is not working
+
 **Thing that couldn't solve**
 1. Couldn't show the number increasing in the cart icon whenever an item is added
 2. Couldn't add +/- quantity button
