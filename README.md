@@ -69,7 +69,8 @@
 
 ----------------------------------------
 **Things that doesn't work**
- 1.My total update bill function is not working
+
+1. My total update bill function is not working
 
 **Thing that couldn't solve**
 1. Couldn't add +/- quantity button
