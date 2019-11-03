@@ -1,0 +1,67 @@
+img.cart-img {
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    /* vertical-align: middle; */
+  }
+  td.center-it {
+    vertical-align: middle;
+  }
+
+body {
+    background: #333;
+    color: #fff;
+  }
+
+  .navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+  }
+
+  #home-section {
+    background: url("https://cdn.shopify.com/s/files/1/1692/0637/products/IMG20180607152219052_1024x1024@2x.jpg?v=1538431993");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+  }
+  
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  #home-section .home-inner {
+    padding-top: 150px;
+  }
+  .pd-cl{
+    padding-top: 150px;
+  }
+  .img{
+    background: url("https://images.unsplash.com/photo-1556974005-90d90a62677d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+    
+  }
+  .sty{
+    width: 18rem;
+    height: 18rem;
+  }
+  .text-gold{
+    color: #D4AF37
+  }
+  .text-outline-gold{
+    color: #D4AF37;
+    border-color: #D4AF37;
+
+  }
