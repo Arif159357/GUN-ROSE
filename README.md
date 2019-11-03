@@ -10,9 +10,7 @@
 <br/><br/>
 
 ---
-<br/>
 **View Items:**
-
 # click on the Shop Now button
 <br/><br/>
 
