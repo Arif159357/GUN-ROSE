@@ -235,7 +235,7 @@ $(".get_des").click(function(e) {
   div.append(btn);
 });
 
-$(".goback").click(function(e) {
+$("#goback").click(function(e) {
   $("#DE").hide();
   $("#SP").show();
   $("#DE").empty();
