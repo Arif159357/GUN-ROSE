@@ -14,11 +14,14 @@
 **View Items:**
 # click on the Shop Now button
 <br/><br/>
-![shopbtn](https://user-images.githubusercontent.com/55071900/68081001-e4155780-fe30-11e9-8e20-4ada123baa65.png)
+
+![shopbtn](https://user-images.githubusercontent.com/55071900/68081163-9f3ef000-fe33-11e9-8313-0aae602a4438.png)
+
 <br/><br/>
 # It will take You to the Item page
 <br/><br/>
-![item](https://user-images.githubusercontent.com/55071900/68081015-18891380-fe31-11e9-9e93-f61443f4a7e2.PNG)
+![item](https://user-images.githubusercontent.com/55071900/68081167-b54cb080-fe33-11e9-834a-6546930454de.PNG)
+
 <br/><br/>
 -----
 
