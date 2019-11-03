@@ -130,9 +130,12 @@ var cart = [
 ];
 
 var cart_count = 0;
-var count =0;
+var co =0;
 var qunt = 0
 $(".add_items").click(function(e) {
+  co = co + 1
+
+  $('#icon1').text(co)
   cart_count++;
   var parent = $(this).parent();
 
@@ -152,7 +155,7 @@ $(".add_items").click(function(e) {
     .eq(0)
     .text();
     
-    cart.push({ name: name, url: img1, count:count++, price: price });
+    cart.push({ name: name, url: img1, price: price });
     window.localStorage.setItem("cart", JSON.stringify(cart));
   
   var sum = 0;
@@ -246,16 +249,16 @@ $(document).on('click', '#goback', function() {
 console.log(cart);
 
 function updateTotalBill(value){
-   var total = $('#total').text()
-   //total = parseInt(total)
+   var total = $('#total').value
+    //var t = parseInt(total)
    console.log("1st",total)
     for(var i=0; i<cart.length;i++){
       if (i==value){
         console.log("cp-",cart[i].price)
-        total = total - cart[i].price
+        total = total - parseFloat(cart[i].price)
         console.log("Total-",total)
         $("#total").text("Total: " + total)
-        //cart.splice(i, 1)
+        cart.splice(i, 1)
 
       }
     }
